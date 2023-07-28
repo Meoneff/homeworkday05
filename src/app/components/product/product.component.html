@@ -1,0 +1,21 @@
+<div class="row" *ngFor="let item of itemList">
+    <div class="el-wrapper">
+      <div class="item">
+        <img class="img" [src]="item.image" alt="" />
+        <div class="img-info">
+          <div class="info-inner">
+            <span class="p-name">{{ item.name }}</span>
+          </div>
+          <div class="info-inner">
+            <span class="p-name">{{ item.price }}</span>
+          </div>
+        <div class="a-size">
+            Sizes : <span class="size">S , M , L , XL, XXL</span>
+        </div>
+      </div>
+          <button class="btn_del" mat-button (click)="delete(item.id)">delete </button>
+      </div>
+
+    </div>
+  </div>
+  

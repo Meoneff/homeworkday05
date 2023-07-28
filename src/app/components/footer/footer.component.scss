@@ -1,0 +1,131 @@
+
+
+/* Style the footer container */
+/* Fix footer position at the bottom of the page */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Adjust spacing and color for the footer */
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.containerfooter {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Style the top footer section */
+
+
+.top-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+
+.top-footer h4 {
+  font-size: 20px;
+  margin: 0px 0 25px 0;
+  text-transform: uppercase;
+}
+
+.social a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.social a:hover {
+  color: #f00; /* Hover color for social icons */
+}
+
+.toggle-mn li {
+  margin-bottom: 10px;
+}
+
+.toggle-mn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.toggle-mn a:hover {
+  color: #f00; /* Hover color for links in the about section */
+}
+
+/* Style the contact section */
+.twofooter {
+  display: flex;
+  flex: 1;
+}
+
+
+.fot_contact_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fot_contact_item i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Style the bottom footer section */
+.bottom-footer {
+  background-color: #222;
+  padding: 20px 0;
+}
+
+.row_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.wsp {
+  color: #fff;
+}
+
+.fot_copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+.leftfooter {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px
+}
+.righfooter{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.twofooter {
+  display: flex;
+  justify-content: space-between; /* Hiển thị các phần tử cùng hàng ngang và căn giữa */
+  align-items: start
+}
+
+
+
+.centerfooter ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.centerfooter ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.centerfooter ul li a:hover {
+  color: #f00; /* Màu khi hover */
+}
