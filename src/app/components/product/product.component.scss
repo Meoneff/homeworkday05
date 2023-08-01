@@ -8,12 +8,8 @@ img {
 }
 
 .item {
-  display: grid;
-  align-items: center;
+
   padding: 60px;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 100px 100px;
-  grid-gap: 20px;
   
 }
 .img-info {
